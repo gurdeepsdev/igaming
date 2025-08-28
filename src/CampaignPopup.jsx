@@ -6,7 +6,7 @@ const CampaignPopup = () => {
   useEffect(() => {
     async function checkCampaign() {
       try {
-        const res = await fetch("http://localhost:5200/api/campaign-status");
+        const res = await fetch("https://funslot.online/api/campaign-status");
         const data = await res.json();
         setShowPopup(data.live);
       } catch (error) {

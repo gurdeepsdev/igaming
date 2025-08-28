@@ -122,8 +122,8 @@ export default function BettingSites() {
       {/* Footer */}
       <footer className="mt-10 py-6 border-t border-gray-800 text-center text-gray-400 text-sm">
         <div className="flex flex-col md:flex-row justify-center gap-6">
-          <a href="#" className="hover:text-white">Terms & Conditions</a>
-          <a href="#" className="hover:text-white">Privacy Policy</a>
+          <a href="Terms-And-Conditions" className="hover:text-white">Terms & Conditions</a>
+          <a href="Privecy-Policy" className="hover:text-white">Privacy Policy</a>
         </div>
       </footer>
     </div>
