@@ -9,6 +9,7 @@ const CampaignPopup = () => {
         const res = await fetch("https://funslot.online/api/campaign-status");
         const data = await res.json();
         setShowPopup(data.live);
+        console.log("Campaign status:", data);
       } catch (error) {
         console.error("Error checking campaign status", error);
       }
@@ -26,9 +27,9 @@ const CampaignPopup = () => {
             {/* <p className="mb-4">Our campaign is live. Click below to see more.</p> */}
             <button
               onClick={() => (window.location.href = "/")}
-              className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
-            >
-Yes            </button>
+              className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600">
+                Yes  
+          </button>
           </div>
         </div>
       )}
