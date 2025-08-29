@@ -25,7 +25,7 @@ const CampaignPopup = () => {
             </h2>
             {/* <p className="mb-4">Our campaign is live. Click below to see more.</p> */}
             <button
-              onClick={() => (window.location.href = "/Alloffers")}
+              onClick={() => (window.location.href = "/")}
               className="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600"
             >
 Yes            </button>
